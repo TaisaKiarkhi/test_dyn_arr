@@ -35,7 +35,7 @@ int main() {
 	cout << "Enter the size of your array: ";
 	cin >> size;
 	create_array<int> b(size); 
-    cout << "Fill your array " << endl;
+        cout << "Fill your array " << endl;
 	b.fill_array();
 	
 	return 0;
